@@ -16,9 +16,6 @@ footer{
 .back-green{
   background-color: var(--back-green);
 }
-[class^="col"]{
-  background-color: rgba(255, 0, 0, 0.425);
-}
 /****************************************************************
   DEBUG
 ****************************************************************/
@@ -26,11 +23,19 @@ footer{
   min-height: 50px;
   min-width: 50px;
   background-color: rgba(0, 0, 0, 0.507);
+  border: 1px solid black;
+}
+.debug-cercle{
+  min-height: 150px;
+  min-width: 150px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.507);
+  border: 1px solid black;
 }
 .debug-box{
   min-height: 400px;
   min-width: 400px;
-  background-color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(216, 9, 9, 0.507);
 }
 /****************************************************************
   HEADER

@@ -9,12 +9,12 @@
 /****************************************************************
   GENERAL
 ****************************************************************/
-header,
-footer{
-  background-color: var(--dark-grey);
+.container_ap{
+  width: 65%;
 }
 .back-green{
   background-color: var(--back-green);
+  color: white;
 }
 /****************************************************************
   DEBUG
@@ -26,11 +26,16 @@ footer{
   border: 1px solid black;
 }
 .debug-cercle{
-  min-height: 150px;
-  min-width: 150px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.507);
   border: 1px solid black;
+}
+.ltl-debug-box{
+  min-height: 200px;
+  min-width: 200px;
+  background-color: rgba(216, 9, 9, 0.507);
 }
 .debug-box{
   min-height: 400px;
@@ -42,7 +47,20 @@ footer{
 ****************************************************************/
 header{
   height: 60px;
+  background-color: var(--dark-grey);
 }
 /****************************************************************
   FOOTER
 ****************************************************************/
+footer{
+  color: white;
+}
+.footer-bottom{
+  background-color: var(--dark-grey);
+}
+.footer-top{
+  background-color: var(--light-grey);
+}
+footer h4{
+  text-transform: uppercase;
+}

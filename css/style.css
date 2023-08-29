@@ -13,8 +13,24 @@ header,
 footer{
   background-color: var(--dark-grey);
 }
+.back-green{
+  background-color: var(--back-green);
+}
 [class^="col"]{
   background-color: rgba(255, 0, 0, 0.425);
+}
+/****************************************************************
+  DEBUG
+****************************************************************/
+.debug{
+  min-height: 50px;
+  min-width: 50px;
+  background-color: rgba(0, 0, 0, 0.507);
+}
+.debug-box{
+  min-height: 400px;
+  min-width: 400px;
+  background-color: rgba(0, 0, 0, 0.507);
 }
 /****************************************************************
   HEADER

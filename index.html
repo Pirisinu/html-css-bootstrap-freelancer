@@ -45,7 +45,7 @@
   </header>
 
   <main>
-    <section class="back-green py-5">
+    <section class="back-green py-4">
       <div class="container">
         <div class="row">
           <div class="col col-md-8 offset-md-2 col-xl-4 offset-xl-4">
@@ -53,11 +53,11 @@
               <img class="h-100 w-100" src="img/avatar.svg" alt="">
             </div>
             <div class="row h-50 text-uppercase text-center">
-              <h1 class="fw-bolder">start bootstrap</h1>
+              <h1 class="fw-bolder d-flex align-items-center justify-content-center personal_h1">start bootstrap</h1>
               <div class="star d-flex align-items-center justify-content-center fs-2 position-relative">
                 <i class="fa-solid fa-star"></i>
               </div>
-              <p>graphic artist - web designer - illustrator</p>
+              <h4>graphic artist - web designer - illustrator</h4>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
     <section class="portfolio py-5" >
       <div class="container-md">
         <div class="title-section text-center text-uppercase">
-          <h2>Portfolio</h2>
+          <h2 class="fw-bold ">Portfolio</h2>
           <div class="star d-flex align-items-center justify-content-center fs-2 position-relative">
             <i class="fa-solid fa-star"></i>
           </div>
@@ -75,33 +75,51 @@
         </div>
         <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-xl-3 p-3">
           <div class="col">
-            <div class="card rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
-              <img src="img/cabin.png" alt="">
+            <div class="personal-card position-relative rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
+              <div class="personal-img z-1 position-relative ">
+                <img class="w-100 h-100" src="img/cabin.png" alt="">
+              </div>
+              <div class="position-absolute personal_hover top-0 h-100 w-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus"></i></div>
             </div>
           </div>
           <div class="col">
-            <div class="card rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
-              <img src="img/cake.png" alt="">
+            <div class="personal-card position-relative rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
+              <div class="personal-img z-1 position-relative ">
+                <img class="w-100 h-100" src="img/cake.png" alt="">
+              </div>
+              <div class="position-absolute personal_hover top-0 h-100 w-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus"></i></div>
             </div>
           </div>
           <div class="col">
-            <div class="card rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
-              <img src="img/circus.png" alt="">
+            <div class="personal-card position-relative rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
+              <div class="personal-img z-1 position-relative ">
+                <img class="w-100 h-100" src="img/circus.png" alt="">
+              </div>
+              <div class="position-absolute personal_hover top-0 h-100 w-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus"></i></div>
             </div>
           </div>
           <div class="col">
-            <div class="card rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
-              <img src="img/game.png" alt="">
+            <div class="personal-card position-relative rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
+              <div class="personal-img z-1 position-relative ">
+                <img class="w-100 h-100" src="img/game.png" alt="">
+              </div>
+              <div class="position-absolute personal_hover top-0 h-100 w-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus"></i></div>
             </div>
           </div>
           <div class="col">
-            <div class="card rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
-              <img src="img/safe.png" alt="">
+            <div class="personal-card position-relative rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
+              <div class="personal-img z-1 position-relative ">
+                <img class="w-100 h-100" src="img/safe.png" alt="">
+              </div>
+              <div class="position-absolute personal_hover top-0 h-100 w-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus"></i></div>
             </div>
           </div>
           <div class="col">
-            <div class="card rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
-              <img src="img/submarine.png" alt="">
+            <div class="personal-card position-relative rounded-4 w-100 h-100 object-fit-cover overflow-hidden">
+              <div class="personal-img z-1 position-relative ">
+                <img class="w-100 h-100" src="img/submarine.png" alt="">
+              </div>
+              <div class="position-absolute personal_hover top-0 h-100 w-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus"></i></div>
             </div>
           </div>
         </div> 
@@ -149,32 +167,32 @@
 
   <footer>
     <div class="footer-top">
-      <div class="container debug">
-        <div class="row row-cols-md-3 row-cols-1 text-center">
+      <div class="container ">
+        <div class="row row-cols-1 row-cols-md-3 text-center">
           <div class="col p-5">
             <h2>Location</h2>
             <h5>2215 John Daniel Drive Clark, MO 54243</h5>
           </div>
-          <div class="col p-5">
+          <div class="col py-3">
             <h4>Around the web</h4>
-            <div class="row">
-              <div class="col w-100 h-100">
-                <div class="w-100 h-100 icon-cercle-box">
+            <div class="row my-3">
+              <div class="col d-flex justify-content-center align-items-center w-100 h-100">
+                <div class="icon-cercle-box d-flex justify-content-center align-items-center border border-1 rounded-circle">
                   <i class="fa-brands fa-facebook-f"></i>
                 </div>
               </div>
-              <div class="col w-100 h-100 ">
-                <div class=" w-100 h-100 icon-cercle-box">
+              <div class="col d-flex justify-content-center align-items-center w-100 h-100 ">
+                <div class="icon-cercle-box d-flex justify-content-center align-items-center border border-1 rounded-circle">
                   <i class="fa-brands fa-google-plus-g"></i>
                 </div>
               </div>
-              <div class="col w-100 h-100 ">
-                <div class=" w-100 h-100 icon-cercle-box">
+              <div class="col d-flex justify-content-center align-items-center w-100 h-100 ">
+                <div class="icon-cercle-box d-flex justify-content-center align-items-center border border-1 rounded-circle">
                   <i class="fa-brands fa-twitter"></i>
                 </div>
               </div>
-              <div class="col w-100 h-100  fs-6">
-                <div class=" w-100 h-100 icon-cercle-box">
+              <div class="col d-flex justify-content-center align-items-center w-100 h-100">
+                <div class="icon-cercle-box d-flex justify-content-center align-items-center border border-1 rounded-circle">
                   <i class="fa-brands fa-linkedin-in"></i>
                 </div>
               </div>

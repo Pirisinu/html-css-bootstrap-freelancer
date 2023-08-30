@@ -24,7 +24,31 @@ color: white;
 .nav_collap_bg{
   background-color: var(--dark-grey);
 }
-
+/****************************************************************
+  STAR
+****************************************************************/
+.star::before{
+  content: "";
+  position: absolute;
+  right: 30%;
+  bottom: 50%;
+  width: 13%;
+  height: 2px;
+  background-color: var(--dark-grey);
+  border-radius: 4px;
+  transform-origin: center;
+}
+.star::after{
+  content: "";
+  position: absolute;
+  left: 30%;
+  bottom: 50%;
+  width: 13%;
+  height: 2px;
+  background-color: var(--dark-grey);
+  border-radius: 4px;
+  transform-origin: center;
+}
 .back-green .star::before{
   content: "";
   position: absolute;
@@ -46,6 +70,24 @@ color: white;
   background-color: white;
   border-radius: 4px;
   transform-origin: center;
+}
+/****************************************************************
+  PERSONAL CHANGES
+****************************************************************/
+div .personal_input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+div .personal_input::placeholder{
+  color: black;
+  font-weight: 400;
+}
+.personal_btn{
+  background-color: var(--back-green);
+  color: white;
 }
 /****************************************************************
   DEBUG

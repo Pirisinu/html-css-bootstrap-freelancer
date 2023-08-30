@@ -88,6 +88,12 @@ div .personal_input::placeholder{
 .personal_head_btn{
   color: grey;
 }
+.personal_link_hover{
+  color: white;
+}
+header nav li:hover .personal_link_hover{
+  color: var(--back-green);
+}
 .personal_btn{
   background-color: var(--back-green);
   color: white;

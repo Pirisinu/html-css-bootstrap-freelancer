@@ -85,6 +85,9 @@ div .personal_input::placeholder{
   color: black;
   font-weight: 400;
 }
+.personal_head_btn{
+  color: grey;
+}
 .personal_btn{
   background-color: var(--back-green);
   color: white;
@@ -147,5 +150,5 @@ footer h4{
   width: 60px;
 }
 .icon-cercle-box i{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }

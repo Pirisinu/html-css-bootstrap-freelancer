@@ -9,12 +9,20 @@
 /****************************************************************
   GENERAL
 ****************************************************************/
+header,
+.back-green,
+footer{
+color: white;
+}
 .container_ap{
   width: 65%;
 }
 .back-green{
   background-color: var(--back-green);
   color: white;
+}
+.nav_collap_bg{
+  background-color: var(--dark-grey);
 }
 /****************************************************************
   DEBUG
@@ -52,9 +60,6 @@ header{
 /****************************************************************
   FOOTER
 ****************************************************************/
-footer{
-  color: white;
-}
 .footer-bottom{
   background-color: var(--dark-grey);
 }
@@ -63,4 +68,8 @@ footer{
 }
 footer h4{
   text-transform: uppercase;
+}
+.icon-cercle-box{
+  border-radius: 50%;
+  border: 1px solid white;
 }

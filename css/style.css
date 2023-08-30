@@ -14,7 +14,7 @@ header,
 footer{
 color: white;
 }
-.container_ap{
+.personal_container{
   width: 65%;
 }
 .back-green{
@@ -128,6 +128,13 @@ footer h4{
   text-transform: uppercase;
 }
 .icon-cercle-box{
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+.icon-cercle-box i{
+  font-size: 2rem;
+  padding: 15px;
+  border: 1px solid;
   border-radius: 50%;
-  border: 1px solid white;
 }

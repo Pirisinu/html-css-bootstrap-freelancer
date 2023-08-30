@@ -25,23 +25,25 @@ color: white;
   background-color: var(--dark-grey);
 }
 
-.star::before{
+.back-green .star::before{
   content: "";
   position: absolute;
   right: 30%;
   bottom: 50%;
   width: 13%;
   height: 2px;
+  background-color: white;
   border-radius: 4px;
   transform-origin: center;
 }
-.star::after{
+.back-green .star::after{
   content: "";
   position: absolute;
   left: 30%;
   bottom: 50%;
   width: 13%;
   height: 2px;
+  background-color: white;
   border-radius: 4px;
   transform-origin: center;
 }
